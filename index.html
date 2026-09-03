@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muebles Avenida | Excelencia en Mobiliario desde 1964</title>
+    <meta name="description" content="Descubre la elegancia y tradición de Muebles Avenida. Especialistas en mobiliario de calidad, diseño a medida y montaje profesional en Madrid.">
+    
+    <!-- SEO & Social Media -->
+    <link rel="canonical" href="https://www.mueblesavenida.com">
+    <meta property="og:title" content="Muebles Avenida | Mobiliario Premium en Madrid">
+    <meta property="og:description" content="Elegancia, calidad y tradición desde 1964. Transformamos tu hogar con diseños a medida.">
+    <meta property="og:image" content="assets/hero.webp">
+    <meta property="og:url" content="https://www.mueblesavenida.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Performance: Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Optimized Font Loading -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap">
+    </noscript>
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FurnitureStore",
+      "name": "Muebles Avenida",
+      "image": "assets/hero.webp",
+      "founder": "Eduardo García",
+      "foundingDate": "1964",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida del Mediterráneo Nº 27",
+        "addressLocality": "Madrid",
+        "postalCode": "28007",
+        "addressCountry": "ES"
+      },
+      "url": "https://www.mueblesavenida.com",
+      "telephone": "+34915017376",
+      "email": "mueblesavenida@hotmail.com",
+      "openingHours": [
+        "Mo 17:00-20:30",
+        "Tu-Fr 10:30-14:00",
+        "Tu-Fr 17:00-20:30",
+        "Sa 10:30-14:00"
+      ]
+    }
+    </script>
+
+    <style>
+    :root{--primary:#2D241E;--secondary:#7D5F41;--accent:#E8DED3;--white:#FFFFFF;--bg-light:#FAF9F6;--bg-dark:#1F1B19;--text-dark:#1A1512;--text-muted:#594D43;--glass:rgba(255,255,255,0.7);--glass-border:rgba(255,255,255,0.3);--shadow-soft:0 15px 45px rgba(0,0,0,0.05);--shadow-strong:0 30px 60px rgba(0,0,0,0.12);--nav-height:90px;--section-padding:120px 7%;--transition:all 0.5s cubic-bezier(0.23,1,0.32,1)}
+    *{margin:0;padding:0;box-sizing:border-box;outline:none}
+    html{scroll-behavior:smooth}
+    html,body{overflow-x:hidden;position:relative;width:100%}
+    body{font-family:'Inter',sans-serif;color:var(--text-dark);background-color:var(--bg-light);line-height:1.7}
+    img,video,canvas,svg{max-width:100%;height:auto;display:block}
+    h1,h2,h3,h4{font-family:'Outfit',sans-serif;font-weight:700;line-height:1.1;letter-spacing:-0.02em}
+    section{padding:var(--section-padding);position:relative;overflow:hidden}
+    .container{max-width:1400px;margin:0 auto}
+    header{position:fixed;top:0;left:0;width:100%;height:var(--nav-height);display:flex;align-items:center;justify-content:space-between;padding:0 7%;z-index:1000;transition:var(--transition)}
+    header.scrolled{height:75px;background:var(--glass);backdrop-filter:blur(20px);border-bottom:1px solid var(--glass-border);box-shadow:0 10px 30px rgba(0,0,0,0.03)}
+    .logo{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:'Outfit',sans-serif;font-size:1.4rem;font-weight:700;color:var(--white);letter-spacing:-0.5px}
+    .logo img{height:45px;width:auto;transition:var(--transition);filter:brightness(0) invert(1)}
+    .logo span{color:var(--white)}
+    nav ul{display:flex;list-style:none;gap:40px}
+    nav a{text-decoration:none;color:var(--white);font-weight:500;font-size:0.95rem;transition:var(--transition);opacity:0.8}
+    .hamburger{display:none;cursor:pointer;background:none;border:none;z-index:1001}
+    .hamburger span{display:block;width:25px;height:2px;background:var(--white);margin:5px 0;transition:var(--transition)}
+    .hero{height:100vh;display:flex;align-items:center;position:relative;padding:0 7%;color:var(--white);background:var(--bg-dark)}
+    .hero-bg{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1}
+    .hero-bg img{width:100%;height:100%;object-fit:cover;opacity:0.7}
+    .hero-bg::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.2))}
+    .hero-content{position:relative;z-index:2;max-width:800px}
+    .hero h1{font-size:5rem;margin-bottom:30px;text-shadow:0 10px 30px rgba(0,0,0,0.2)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:18px 45px;border-radius:4px;font-weight:600;text-decoration:none;transition:var(--transition);cursor:pointer;font-family:'Outfit',sans-serif;font-size:1rem;border:none}
+    .btn-primary{background:var(--secondary);color:var(--white)}
+    .btn-sm{padding:10px 25px;font-size:0.85rem}
+    [data-reveal]{opacity:0;transform:translateY(40px);transition:1s cubic-bezier(0.23,1,0.32,1)}
+    .icon-svg{width:1em;height:1em;vertical-align:-0.125em;fill:currentColor;display:inline-block}
+    </style>
+
+    <link rel="preload" href="style.css?v=1.1" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="style.css?v=1.1"></noscript>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="assets/favicon.webp">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="#Inicio" class="logo" aria-label="Muebles Avenida - Volver al inicio">
+            <img src="assets/logo.webp" alt="Logo Muebles Avenida" width="45" height="45">
+            MUEBLES<span>AVENIDA</span>
+        </a>
+        
+        <nav id="nav-menu" aria-label="Navegación principal">
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Colecciones">Colecciones</a></li>
+                <li><a href="#Servicios">Servicios</a></li>
+                <li><a href="#Historia">Historia</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-cta">
+            <a href="tel:915017376" class="btn btn-sm btn-primary" aria-label="Llamar a Muebles Avenida"><svg class="icon-svg" viewBox="0 0 512 512" aria-hidden="true" style="margin-right: 8px;"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg> 915 017 376</a>
+        </div>
+
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+
+
+    <!-- Hero Section -->
+    <section id="Inicio" class="hero">
+        <div class="hero-bg">
+            <picture>
+                <source srcset="assets/hero.avif" type="image/avif">
+                <source srcset="assets/hero.webp" type="image/webp">
+                <img src="assets/hero.webp" alt="Salón moderno con acabados en madera noble" width="1024" height="1024" fetchpriority="high">
+            </picture>
+        </div>
+        <div class="container">
+            <div class="hero-content" data-reveal>
+                <span>Tradición • Diseño • Confianza</span>
+                <h1>El arte de amueblar tu hogar</h1>
+                <p>Desde 1964, transformamos espacios en Madrid con mobiliario que combina la calidez de la madera noble con la sofisticación del diseño contemporáneo.</p>
+                <div class="hero-btns">
+                    <a href="#Colecciones" class="btn btn-primary">Ver Colecciones</a>
+                    <a href="#Historia" class="btn btn-outline" style="margin-left: 15px;">Nuestra Historia</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section id="Colecciones">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span>Explora nuestra esencia</span>
+                <h2>Nuestras Colecciones</h2>
+            </div>
+            
+            <div class="collections-grid">
+                <div class="collection-card" data-reveal>
+                    <picture>
+                        <source srcset="assets/hero_card.avif" type="image/avif">
+                        <source srcset="assets/hero.webp" type="image/webp">
+                        <img src="assets/hero.webp" alt="Colección de salones modernos" width="600" height="600" loading="lazy">
+                    </picture>
+                    <div class="collection-overlay">
+                        <h3>Zonas de Estar</h3>
+                        <p>Sofás, aparadores y mesas que definen el carácter de tu salón.</p>
+                    </div>
+                </div>
+                <div class="collection-card" data-reveal>
+                    <picture>
+                        <source srcset="assets/youth.avif" type="image/avif">
+                        <source srcset="assets/youth.webp" type="image/webp">
+                        <img src="assets/youth.webp" alt="Dormitorio juvenil funcional" width="600" height="600" loading="lazy">
+                    </picture>
+                    <div class="collection-overlay">
+                        <h3>Juvenil & Descanso</h3>
+                        <p>Soluciones inteligentes y confortables para los más jóvenes.</p>
+                    </div>
+                </div>
+                <div class="collection-card" data-reveal>
+                    <picture>
+                        <source srcset="assets/dining.avif" type="image/avif">
+                        <source srcset="assets/dining.webp" type="image/webp">
+                        <img src="assets/dining.webp" alt="Conjunto de mesa y sillas de comedor" width="600" height="600" loading="lazy">
+                    </picture>
+                    <div class="collection-overlay">
+                        <h3>Comedores</h3>
+                        <p>El punto de encuentro ideal con materiales de primera calidad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="Servicios" style="background: rgba(232, 222, 211, 0.2);">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span>Lo que nos hace diferentes</span>
+                <h2>Servicio Integral</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-item" data-reveal>
+                    <div class="service-icon"><svg class="icon-svg" viewBox="0 0 512 512" aria-hidden="true"><path d="M359.7 13.3c-10.7-10.7-28.1-10.7-38.8 0L242.3 91.9 233.1 82.7c-10.7-10.7-28.1-10.7-38.8 0L15.3 238.8c-10.7 10.7-10.7 28.1 0 38.8l20.4 20.4 20.4 20.4c10.7 10.7 28.1 10.7 38.8 0l165.7-165.7 8.3 8.3c10.7 10.7 28.1 10.7 38.8 0l20.4-20.4 20.4-20.4c10.7-10.7 10.7-28.1 0-38.8l-8.3-8.3 78.5-78.5c10.7-10.7 10.7-28.1 0-38.8L359.7 13.3zM151.7 320.7l-9.4 9.4-44.5 44.5-9.4 9.4-38.8-38.8 9.4-9.4 44.5-44.5 9.4-9.4 38.8 38.8zm358.3-228.6c1.7-1.7 2.3-4.2 1.6-6.5l-33.6-107.4c-1.3-4.1-5.1-6.9-9.5-6.9H328.7c-2.3 0-4.5 0.9-6.2 2.5l-18.8 18.8c-1.7 1.7-2.5 3.9-2.5 6.2v39.5c0 4.4 2.8 8.2 6.9 9.5l107.4 33.6c2.3 0.7 4.8 0.1 6.5-1.6l18.8-18.8z"/></svg></div>
+                    <h3>Diseño a Medida</h3>
+                    <ul>
+                        <li>Asesoramiento personalizado en tienda.</li>
+                        <li>Personalización de medidas y materiales.</li>
+                        <li>Proyectos 3D para visualizar tu hogar.</li>
+                    </ul>
+                </div>
+                <div class="service-item" data-reveal>
+                    <div class="service-icon"><svg class="icon-svg" viewBox="0 0 512 512" aria-hidden="true"><path d="M48 128C21.5 128 0 149.5 0 176V400c0 26.5 21.5 48 48 48H64c0 35.3 28.7 64 64 64s64-28.7 64-64H320c0 35.3 28.7 64 64 64s64-28.7 64-64h16c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48H432V176c0-26.5-21.5-48-48-48H48zM432 320h48v80H432V320zM128 416c8.8 0 16 7.2 16 16s-7.2 16-16 16s-16-7.2-16-16s7.2-16 16-16zm256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16s-16-7.2-16-16s7.2-16 16-16z"/></svg></div>
+                    <h3>Logística Profesional</h3>
+                    <ul>
+                        <li>Transporte propio especializado.</li>
+                        <li>Montaje profesional incluido sin coste.</li>
+                        <li>Retirada de muebles antiguos.</li>
+                    </ul>
+                </div>
+                <div class="service-item" data-reveal>
+                    <div class="service-icon"><svg class="icon-svg" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.7 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z"/></svg></div>
+                    <h3>Garantía & Confianza</h3>
+                    <ul>
+                        <li>Servicio post-venta garantizado.</li>
+                        <li>Financiación flexible a tu medida.</li>
+                        <li>Materiales sostenibles y duraderos.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="Historia" class="history">
+        <div class="container history-grid">
+            <div class="history-content" data-reveal>
+                <div class="section-header" style="text-align: left; margin-bottom: 40px;">
+                    <span style="color: var(--accent);">Desde 1964</span>
+                    <h2 style="color: white; font-size: 3.5rem;">Sesenta años creando hogares</h2>
+                </div>
+                <p>Fundada por Eduardo García, Muebles Avenida nació de la pasión por la artesanía y el trato cercano. Lo que comenzó como un pequeño taller en el corazón de Madrid, se ha convertido en un referente de confianza para generaciones de familias.</p>
+                <p>Hoy, mantenemos intactos nuestros valores: calidad impecable, honestidad en el servicio y un compromiso inquebrantable con la satisfacción de cada cliente.</p>
+                
+                <div class="history-stats">
+                    <div class="stat-item">
+                        <h3>60+</h3>
+                        <p>Años de historia</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10k+</h3>
+                        <p>Hogares amueblados</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Compromiso</p>
+                    </div>
+                </div>
+            </div>
+            <div class="history-img-wrapper" data-reveal>
+                <picture>
+                    <source srcset="assets/service1.webp" type="image/webp">
+                    <img src="assets/service1.webp" alt="Interior de nuestra exposición histórica" width="800" height="600" loading="lazy">
+                </picture>
+                <div class="floating-badge">
+                    <svg class="icon-svg" viewBox="0 0 512 512" aria-hidden="true" style="font-size: 2rem; margin-bottom: 10px;"><path d="M223.75 130.75L154.62 15.54A31.997 31.997 0 0 0 127.18 0H16.03C3.08 0-4.5 14.57 2.92 25.18l111.27 158.96c29.72-27.77 67.52-46.83 109.56-53.39zM495.97 0H384.82c-11.24 0-21.66 5.9-27.44 15.54l-69.13 115.21c42.04 6.56 79.84 25.62 109.56 53.38L509.08 25.18C516.5 14.57 508.92 0 495.97 0zM256 160c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.76 0-112-50.24-112-112s50.24-112 112-112 112 50.24 112 112-50.24 112-112 112zm-4.78-183.1l-24.93 17.61-9.51-26.11-26.11-9.51 17.61-24.93-17.61-24.93 26.11-9.51 9.51-26.11 24.93 17.61 24.93-17.61 9.51 26.11 26.11 9.51-17.61 24.93 17.61 24.93-26.11 9.51-9.51 26.11-24.93-17.61z"/></svg>
+                    <span style="font-weight: 700; font-size: 0.9rem;">CALIDAD<br>CERTIFICADA</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="Ubicacion" class="location-section">
+        <div class="container">
+            <div class="location-header" data-reveal>
+                <div class="section-header">
+                    <span>Dónde estamos</span>
+                    <h2>Nuestra Exposición</h2>
+                </div>
+                <p>Visítanos en el corazón de Madrid y descubre piezas exclusivas que transformarán tu hogar. Te asesoramos personalmente para hacer realidad tu proyecto de decoración.</p>
+                <a href="https://www.google.com/maps/dir//Muebles+Avenida,+Av.+del+Mediterr%C3%A1neo,+27,+Retiro,+28007+Madrid" target="_blank" class="btn btn-primary">¿Cómo llegar?</a>
+            </div>
+            
+            <div class="map-outer-container" data-reveal>
+                <div class="map-container">
+                    <iframe class="lazy-map" title="Mapa con la ubicación de nuestra exposición de Muebles Avenida en Madrid" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1519.0382080700338!2d-3.67456123037701!3d40.40715789821507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42261b1458240d%3A0x8105ebecc8386d48!2sMuebles%20Avenida!5e0!3m2!1ses!2ses!4v1754060461296!5m2!1ses!2ses" width="100%" height="100%" style="border:0; background: #eee url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2238%22 height=%2238%22 viewBox=%220 0 38 38%22 stroke=%22%237D5F41%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg transform=%22translate(1 1)%22 stroke-width=%222%22%3E%3Ccircle stroke-opacity=%22.5%22 cx=%2218%22 cy=%2218%22 r=%2218%22/%3E%3Cpath d=%22M36 18c0-9.94-8.06-18-18-18%22%3E%3CanimateTransform attributeName=%22transform%22 type=%22rotate%22 from=%220 18 18%22 to=%22360 18 18%22 dur=%221s%22 repeatCount=%22indefinite%22/%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E') center no-repeat;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="Contacto">
+        <div class="container contact-container">
+            <div class="contact-info" data-reveal>
+                <div class="section-header" style="text-align: left;">
+                    <span>Hablemos</span>
+                    <h2>¿Tienes algún proyecto en mente?</h2>
+                </div>
+                <p style="margin-bottom: 40px; color: var(--text-muted);">Visítanos en nuestra exposición de Madrid o contáctanos por correo electrónico. Estaremos encantados de asesorarte personalmente.</p>
+                
+                <div class="contact-method">
+                    <svg class="icon-svg" viewBox="0 0 512 512" aria-hidden="true" style="color: var(--secondary); margin-top: 5px; margin-right: 20px; width: 1.25rem;"><path d="M256 0c-106 0-192 86-192 192c0 16 2.1 31.5 6.1 46.2l185.9 275.8c4.3 6.4 11.5 10.3 19.1 10.3s14.8-3.9 19.1-10.3L479.9 238.2c4-14.7 6.1-30.2 6.1-46.2C448 86 362 0 256 0zM256 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>
+                    <div>
+                        <h3>Nuestra Tienda</h3>
+                        <p>Avenida del Mediterráneo Nº 27, 28007 Madrid</p>
+                    </div>
+                </div>
+                <div class="contact-method">
+                    <svg class="icon-svg" viewBox="0 0 512 512" aria-hidden="true" style="color: var(--secondary); margin-top: 5px; margin-right: 20px; width: 1.25rem;"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8.8 4.6 16.9 12 21.5l112 70c11.2 7 25.9 3.6 32.9-7.6s3.6-25.9-7.6-32.9L280 238.4V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+                    <div>
+                        <h3>Horario Comercial</h3>
+                        <p>Lun: 17:00–20:30<br>Mar-Vie: 10:30–14:00 | 17:00–20:30<br>Sáb: 10:30–14:00</p>
+                    </div>
+                </div>
+                <div class="contact-method">
+                    <svg class="icon-svg" viewBox="0 0 512 512" aria-hidden="true" style="color: var(--secondary); margin-top: 5px; margin-right: 20px; width: 1.25rem;"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                    <div>
+                        <h3>Email</h3>
+                        <p>mueblesavenida@hotmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-image" data-reveal>
+                <img src="assets/service2.webp" alt="Dormitorio juvenil de nuestra colección" width="1216" height="760" loading="lazy">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col" data-reveal>
+                    <a href="#" class="logo" style="margin-bottom: 30px;">
+                        <img src="assets/logo.webp" alt="Logo White" width="45" height="45">
+                        <span style="color: white;">MUEBLES</span><span>AVENIDA</span>
+                    </a>
+                    <p style="opacity: 0.6; margin-bottom: 30px;">Haciendo realidad el hogar de tus sueños desde 1964. Calidad, diseño y compromiso en cada pieza.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/muebles_avenida_decoracion" target="_blank" aria-label="Síguenos en Instagram"><svg class="icon-svg" viewBox="0 0 448 512" aria-hidden="true"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                        <a href="https://www.facebook.com/people/Muebles-Avenida-Decoracion/100067985006592/" target="_blank" aria-label="Síguenos en Facebook"><svg class="icon-svg" viewBox="0 0 320 512" aria-hidden="true"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col" data-reveal>
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#Inicio">Inicio</a></li>
+                        <li><a href="#Historia">Sobre Nosotros</a></li>
+                        <li><a href="#Servicios">Servicios</a></li>
+                        <li><a href="#Colecciones">Colecciones</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col" data-reveal>
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#" class="legal-link" data-modal="aviso">Aviso Legal</a></li>
+                        <li><a href="#" class="legal-link" data-modal="privacidad">Privacidad</a></li>
+                        <li><a href="#" class="legal-link" data-modal="cookies">Cookies</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Muebles Avenida. Todos los derechos reservados.</p>
+                <p>Diseño Web Premium para Madrid.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Legal Modal -->
+    <div id="legal-modal" class="modal-legal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-wrapper">
+            <div class="modal-header">
+                <h3 id="modal-title">Legal</h3>
+                <button class="modal-close" id="close-modal" aria-label="Cerrar"><svg class="icon-svg" viewBox="0 0 384 512" aria-hidden="true"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3l105.4 105.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg></button>
+            </div>
+            <div class="modal-body">
+                <!-- Content Sections (Hidden by default, shown by JS) -->
+                <div id="content-aviso" class="legal-content">
+                    <h4>1. Información General</h4>
+                    <p>En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, se detallan los siguientes datos:</p>
+                    <ul>
+                        <li><strong>Establecimiento:</strong> Muebles Avenida</li>
+                        <li><strong>Dirección:</strong> Avenida del Mediterráneo Nº 27, 28007 Madrid</li>
+                        <li><strong>Contacto:</strong> mueblesavenida@hotmail.com | 915 017 376</li>
+                        <li><strong>Actividad:</strong> Venta y asesoramiento en mobiliario y decoración.</li>
+                    </ul>
+                    <h4>2. Condiciones de Uso</h4>
+                    <p>El acceso y uso de este sitio web atribuye la condición de Usuario. El Usuario se compromete a hacer un uso adecuado de los contenidos que Muebles Avenida ofrece a través de su web.</p>
+                    <h4>3. Propiedad Intelectual</h4>
+                    <p>Muebles Avenida por sí o como cesionaria, es titular de todos los derechos de propiedad intelectual e industrial de su página web, así como de los elementos contenidos en la misma (imágenes, logotipos, textos, combinaciones de colores, etc.).</p>
+                </div>
+
+                <div id="content-privacidad" class="legal-content">
+                    <h4>Protección de Datos</h4>
+                    <p>De conformidad con el Reglamento (UE) 2016/679 (RGPD), los datos que nos facilite por correo electrónico se tratarán exclusivamente para gestionar sus consultas y facilitarle la información solicitada.</p>
+                    <ul>
+                        <li><strong>Responsable:</strong> Muebles Avenida.</li>
+                        <li><strong>Base legal:</strong> Consentimiento del interesado.</li>
+                        <li><strong>Derechos:</strong> Acceso, rectificación, supresión y otros derechos mediante solicitud escrita a mueblesavenida@hotmail.com.</li>
+                    </ul>
+                </div>
+
+                <div id="content-cookies" class="legal-content">
+                    <h4>Información sobre Cookies</h4>
+                    <p>Muebles Avenida informa que este sitio web no utiliza cookies propias ni de terceros para recopilar datos personales, ni para el seguimiento o análisis de la navegación del usuario.</p>
+                    <p>Nuestra web tiene un carácter puramente informativo y no hace uso de herramientas de rastreo, píxeles de seguimiento ni sistemas de analítica que requieran la instalación de cookies en su dispositivo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=1.0" defer></script>
+</body>
+</html>
