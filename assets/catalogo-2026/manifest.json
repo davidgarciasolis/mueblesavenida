@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "collection": "catalogo-2026",
+  "language": "es",
+  "usage": "Este inventario sirve como contexto estructurado para una IA o para futuras ediciones de la web. Las imágenes conservan el archivo fuente y no se han recortado.",
+  "images": [
+    {
+      "file": "recibidor-espejo-arco-iluminado.jpg",
+      "category": "recibidores",
+      "dimensions": [615, 771],
+      "orientation": "vertical",
+      "alt": "Recibidor contemporáneo con consola suspendida y espejo circular iluminado.",
+      "description": "Interior minimalista en tonos crema con listones verticales de madera, espejo circular retroiluminado, consola flotante y suelo de madera clara.",
+      "suggested_use": ["tarjeta de categoría", "galería de recibidores", "sección de inspiración"],
+      "crop_focus": "espejo circular y consola central"
+    },
+    {
+      "file": "dormitorio-cabecero-listones-madera.jpg",
+      "category": "dormitorios",
+      "dimensions": [510, 648],
+      "orientation": "vertical",
+      "alt": "Dormitorio moderno con cama tapizada y cabecero de listones de madera iluminado.",
+      "description": "Dormitorio cálido y luminoso con cama baja, mesillas blancas, panel central de madera acanalada y dos lámparas colgantes.",
+      "suggested_use": ["tarjeta de categoría", "galería de dormitorios"],
+      "crop_focus": "cama y cabecero central"
+    },
+    {
+      "file": "salon-mueble-tv-madera-roble.jpg",
+      "category": "salones",
+      "dimensions": [606, 710],
+      "orientation": "vertical",
+      "alt": "Salón moderno con mueble bajo de televisión en madera y panel retroiluminado.",
+      "description": "Composición de salón en beige y roble: televisor mural, marco curvo iluminado, mueble bajo de madera y plantas decorativas.",
+      "suggested_use": ["tarjeta de categoría", "galería de salones"],
+      "crop_focus": "mueble de televisión y panel luminoso"
+    },
+    {
+      "file": "salon-tv-panel-madera-integrado.jpg",
+      "category": "salones",
+      "dimensions": [499, 766],
+      "orientation": "vertical",
+      "alt": "Salón elegante con panel de televisión integrado en madera y mueble bajo blanco.",
+      "description": "Salón sofisticado con panel de pared de madera, iluminación indirecta, mueble bajo blanco, sofá claro y mesa de centro redonda.",
+      "suggested_use": ["tarjeta de categoría", "galería de salones"],
+      "crop_focus": "pared de televisión y mueble bajo"
+    },
+    {
+      "file": "vestidor-espejo-redondo-iluminado.jpg",
+      "category": "vestidores",
+      "dimensions": [574, 630],
+      "orientation": "vertical",
+      "alt": "Vestidor con armarios de cristal oscuro y espejo circular iluminado.",
+      "description": "Vestidor contemporáneo de madera oscura con vitrinas negras, iluminación cálida, espejo circular retroiluminado y banco verde.",
+      "suggested_use": ["tarjeta de categoría", "galería de vestidores", "sección de inspiración"],
+      "crop_focus": "espejo y armarios de cristal"
+    },
+    {
+      "file": "salon-sofa-modular-madera.jpg",
+      "category": "salones",
+      "dimensions": [617, 829],
+      "orientation": "vertical",
+      "alt": "Salón con sofá modular blanco, mesas de centro y panel decorativo de madera.",
+      "description": "Salón sereno en tonos crema con sofá modular, mesas de centro bajas, estantes flotantes y listones de madera iluminados.",
+      "suggested_use": ["imagen destacada", "galería de salones", "sección de inspiración"],
+      "crop_focus": "sofá y mesas de centro"
+    },
+    {
+      "file": "dormitorio-juvenil-escritorio-armario.png",
+      "category": "juvenil",
+      "dimensions": [1207, 750],
+      "orientation": "horizontal",
+      "alt": "Dormitorio juvenil con cama, escritorio, armario y estantería integrada.",
+      "description": "Dormitorio juvenil modular de estilo contemporáneo con cama individual, escritorio suspendido, sillón coral y armario de puertas oscuras.",
+      "suggested_use": ["cabecera panorámica", "galería juvenil"],
+      "crop_focus": "cama, escritorio y armario"
+    },
+    {
+      "file": "armario-modular-puertas-cristal.png",
+      "category": "armarios",
+      "dimensions": [708, 763],
+      "orientation": "vertical",
+      "alt": "Armario modular blanco con espejo y puertas de cristal para vestidor.",
+      "description": "Composición modular de armario con puertas blancas, cajones efecto madera, espejo central y vitrinas con ropa visible.",
+      "suggested_use": ["tarjeta de categoría", "galería de armarios"],
+      "crop_focus": "módulo de armario completo"
+    },
+    {
+      "file": "dormitorio-juvenil-cama-escritorio.png",
+      "category": "juvenil",
+      "dimensions": [1270, 766],
+      "orientation": "horizontal",
+      "alt": "Dormitorio juvenil luminoso con cama individual, escritorio y estantes altos.",
+      "description": "Dormitorio juvenil en madera clara y beige con cama baja, escritorio largo, baldas de almacenaje y taburete rosa.",
+      "suggested_use": ["cabecera panorámica", "galería juvenil"],
+      "crop_focus": "cama y escritorio"
+    },
+    {
+      "file": "dormitorio-modular-cama-almacenaje.png",
+      "category": "dormitorios",
+      "dimensions": [1275, 787],
+      "orientation": "horizontal",
+      "alt": "Dormitorio modular con cama, armarios altos y estantería integrada.",
+      "description": "Dormitorio de almacenaje integrado en blanco y madera clara con cama central, armarios superiores, estantería lateral y escritorio compacto.",
+      "suggested_use": ["cabecera panorámica", "galería de dormitorios"],
+      "crop_focus": "cama y sistema de armarios"
+    }
+  ]
+}
