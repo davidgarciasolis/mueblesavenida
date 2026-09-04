@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "collection": "catalogo-2026",
+  "collection": "categorias",
   "language": "es",
   "usage": "Este inventario sirve como contexto estructurado para una IA o para futuras ediciones de la web. Las imágenes conservan el archivo fuente y no se han recortado.",
   "images": [
     {
-      "file": "recibidor-espejo-arco-iluminado.jpg",
+      "file": "recibidores/recibidor-espejo-arco-iluminado.jpg",
       "category": "recibidores",
       "dimensions": [615, 771],
       "orientation": "vertical",
@@ -15,7 +15,7 @@
       "crop_focus": "espejo circular y consola central"
     },
     {
-      "file": "dormitorio-cabecero-listones-madera.jpg",
+      "file": "dormitorios/dormitorio-cabecero-listones-madera.jpg",
       "category": "dormitorios",
       "dimensions": [510, 648],
       "orientation": "vertical",
@@ -25,7 +25,7 @@
       "crop_focus": "cama y cabecero central"
     },
     {
-      "file": "salon-mueble-tv-madera-roble.jpg",
+      "file": "salones/salon-mueble-tv-madera-roble.jpg",
       "category": "salones",
       "dimensions": [606, 710],
       "orientation": "vertical",
@@ -35,7 +35,7 @@
       "crop_focus": "mueble de televisión y panel luminoso"
     },
     {
-      "file": "salon-tv-panel-madera-integrado.jpg",
+      "file": "salones/salon-tv-panel-madera-integrado.jpg",
       "category": "salones",
       "dimensions": [499, 766],
       "orientation": "vertical",
@@ -45,17 +45,17 @@
       "crop_focus": "pared de televisión y mueble bajo"
     },
     {
-      "file": "vestidor-espejo-redondo-iluminado.jpg",
-      "category": "vestidores",
+      "file": "armarios/vestidor-espejo-redondo-iluminado.jpg",
+      "category": "armarios",
       "dimensions": [574, 630],
       "orientation": "vertical",
       "alt": "Vestidor con armarios de cristal oscuro y espejo circular iluminado.",
       "description": "Vestidor contemporáneo de madera oscura con vitrinas negras, iluminación cálida, espejo circular retroiluminado y banco verde.",
-      "suggested_use": ["tarjeta de categoría", "galería de vestidores", "sección de inspiración"],
+      "suggested_use": ["tarjeta de categoría", "galería de armarios", "sección de inspiración"],
       "crop_focus": "espejo y armarios de cristal"
     },
     {
-      "file": "salon-sofa-modular-madera.jpg",
+      "file": "salones/salon-sofa-modular-madera.jpg",
       "category": "salones",
       "dimensions": [617, 829],
       "orientation": "vertical",
@@ -65,7 +65,7 @@
       "crop_focus": "sofá y mesas de centro"
     },
     {
-      "file": "dormitorio-juvenil-escritorio-armario.png",
+      "file": "juvenil/dormitorio-juvenil-escritorio-armario.png",
       "category": "juvenil",
       "dimensions": [1207, 750],
       "orientation": "horizontal",
@@ -75,7 +75,7 @@
       "crop_focus": "cama, escritorio y armario"
     },
     {
-      "file": "armario-modular-puertas-cristal.png",
+      "file": "armarios/armario-modular-puertas-cristal.png",
       "category": "armarios",
       "dimensions": [708, 763],
       "orientation": "vertical",
@@ -85,7 +85,7 @@
       "crop_focus": "módulo de armario completo"
     },
     {
-      "file": "dormitorio-juvenil-cama-escritorio.png",
+      "file": "juvenil/dormitorio-juvenil-cama-escritorio.png",
       "category": "juvenil",
       "dimensions": [1270, 766],
       "orientation": "horizontal",
@@ -95,7 +95,7 @@
       "crop_focus": "cama y escritorio"
     },
     {
-      "file": "dormitorio-modular-cama-almacenaje.png",
+      "file": "dormitorios/dormitorio-modular-cama-almacenaje.png",
       "category": "dormitorios",
       "dimensions": [1275, 787],
       "orientation": "horizontal",

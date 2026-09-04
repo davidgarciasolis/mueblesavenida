@@ -1,8 +1,8 @@
-# Catálogo 2026
+# Categorías
 
 Diez imágenes nuevas preparadas para la web y para herramientas de IA.
 
-- Los nombres de archivo indican el tipo de estancia y sus elementos principales.
+- Las imágenes se agrupan en subcarpetas por categoría; los nombres de archivo indican el tipo de estancia y sus elementos principales.
 - `manifest.json` aporta descripciones en español, texto alternativo, medidas, orientación, foco de recorte y usos sugeridos.
 - Los archivos se mantienen en sus formatos originales para conservar su calidad. Al incorporarlos a una página, se pueden generar derivados AVIF/WebP desde estos originales.
 
