@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galería de inspiración de Muebles Avenida en Madrid.">
+    <title>Galería | Muebles Avenida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="style.css?v=1.2">
+    <link rel="icon" type="image/webp" href="assets/branding/favicon.webp">
+</head>
+<body class="category-page">
+    <header id="header" class="scrolled">
+        <a href="index.html#Inicio" class="logo" aria-label="Muebles Avenida - Volver al inicio">
+            <img src="assets/branding/logo.webp" alt="Logo Muebles Avenida" width="45" height="45">
+            MUEBLES<span>AVENIDA</span>
+        </a>
+        <nav id="nav-menu" aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html#Inicio">Inicio</a></li>
+                <li><a href="index.html#Colecciones">Categorías</a></li>
+                <li><a href="index.html#Servicios">Servicios</a></li>
+                <li><a href="index.html#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="nav-cta"><a href="tel:915017376" class="btn btn-sm btn-primary">915 017 376</a></div>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+    </header>
+
+    <main>
+        <section class="category-hero">
+            <div class="container">
+                <a class="category-back" href="index.html#Colecciones">← Todas las categorías</a>
+                <span class="category-eyebrow">Inspiración para tu hogar</span>
+                <h1 id="category-title">Galería</h1>
+                <p id="category-description"></p>
+            </div>
+        </section>
+        <section class="category-gallery-section">
+            <div class="container">
+                <p id="gallery-count" class="gallery-count"></p>
+                <div id="category-gallery" class="category-gallery" aria-live="polite"></div>
+                <div class="category-contact">
+                    <p>¿Te interesa alguna de estas ideas?</p>
+                    <a href="index.html#Contacto" class="btn btn-primary">Cuéntanos tu proyecto</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="category.js?v=1.0" defer></script>
+</body>
+</html>

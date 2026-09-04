@@ -372,6 +372,26 @@ nav a:hover {
     transform: translateY(0);
     opacity: 1;
 }
+
+/* Category gallery */
+.category-page { background: var(--bg-light); }
+.category-page header { background: var(--bg-light); }
+.category-hero { padding: 180px 7% 72px; background: var(--accent); }
+.category-hero .container { max-width: 1040px; }
+.category-back { display: inline-block; margin-bottom: 52px; color: var(--secondary); font-family: 'Outfit', sans-serif; font-weight: 700; text-decoration: none; }
+.category-back:hover { color: var(--primary); }
+.category-eyebrow, .gallery-count { display: block; color: var(--secondary); text-transform: uppercase; letter-spacing: .18em; font-size: .76rem; font-weight: 700; }
+.category-hero h1 { margin: 12px 0 20px; font-size: clamp(3rem, 6vw, 5.5rem); color: var(--primary); }
+.category-hero p { max-width: 620px; color: var(--text-muted); font-size: 1.12rem; }
+.category-gallery-section { padding-top: 72px; }
+.gallery-count { margin-bottom: 24px; }
+.category-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.gallery-item { min-height: 310px; overflow: hidden; border-radius: 5px; background: var(--accent); }
+.gallery-item--large { grid-column: span 2; }
+.gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s ease; }
+.gallery-item:hover img { transform: scale(1.035); }
+.category-contact { margin: 72px 0 10px; padding: 48px; display: flex; align-items: center; justify-content: space-between; gap: 28px; background: var(--primary); color: var(--white); border-radius: 5px; }
+.category-contact p { font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 1.5rem; }
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -688,6 +708,11 @@ footer {
     .hero h1 { font-size: 2.8rem; }
     .hero { padding-top: 80px; text-align: center; }
     .hero-content { margin: 0 auto; }
+    .category-hero { padding: 130px 5% 58px; }
+    .category-back { margin-bottom: 38px; }
+    .category-gallery { grid-template-columns: 1fr; }
+    .gallery-item, .gallery-item--large { grid-column: auto; min-height: 300px; }
+    .category-contact { margin-top: 52px; padding: 35px 28px; align-items: flex-start; flex-direction: column; }
 }
 @media (max-width: 480px) {
     .hero h1 { font-size: 2.2rem; }
