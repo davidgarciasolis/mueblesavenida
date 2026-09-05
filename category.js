@@ -4,12 +4,29 @@ const categories = {
         images: [
             ['salon-mueble-tv-madera-roble.jpg', 'Salón moderno con mueble bajo de televisión en madera y panel retroiluminado.'],
             ['salon-sofa-modular-madera.jpg', 'Salón con sofá modular blanco, mesas de centro y panel decorativo de madera.'],
-            ['salon-tv-panel-madera-integrado.jpg', 'Salón elegante con panel de televisión integrado en madera y mueble bajo blanco.']
+            ['salon-tv-panel-madera-integrado.jpg', 'Salón elegante con panel de televisión integrado en madera y mueble bajo blanco.'],
+            ['salon-panel-listones-madera-04.png', 'Salón luminoso con panel decorativo de listones de madera.'],
+            ['salon-panel-listones-curvo-05.png', 'Salón con sofá modular y panel de madera con iluminación integrada.']
+        ]
+    },
+    recibidores: {
+        title: 'Recibidores', description: 'Entradas prácticas y acogedoras que anticipan el estilo de tu hogar.',
+        images: [
+            ['recibidor-espejo-arco-iluminado.jpg', 'Recibidor contemporáneo con consola suspendida y espejo circular iluminado.'],
+            ['recibidor-banco-espejo-listones-02.png', 'Recibidor con banco de almacenaje, espejo y panel de listones.'],
+            ['recibidor-consola-espejo-listones-03.png', 'Recibidor con consola de madera, espejo y panel de listones.'],
+            ['recibidor-consola-espejo-circular-04.png', 'Recibidor con consola suspendida y espejo circular iluminado.']
         ]
     },
     dormitorios: {
         title: 'Dormitorios', description: 'Descanso, orden y soluciones que hacen fácil el día a día.',
-        images: [['dormitorio-cabecero-listones-madera.jpg', 'Dormitorio moderno con cama tapizada y cabecero de listones de madera iluminado.'], ['dormitorio-modular-cama-almacenaje.png', 'Dormitorio modular con cama, armarios altos y estantería integrada.']]
+        images: [
+            ['dormitorio-cabecero-listones-madera.jpg', 'Dormitorio moderno con cama tapizada y cabecero de listones de madera iluminado.'],
+            ['dormitorio-modular-cama-almacenaje.png', 'Dormitorio modular con cama, armarios altos y estantería integrada.'],
+            ['dormitorio-cabecero-listones-central-02.png', 'Dormitorio con cabecero central de listones de madera.'],
+            ['dormitorio-cabecero-listones-iluminado-03.png', 'Dormitorio con cabecero de listones e iluminación indirecta.'],
+            ['dormitorio-cabecero-listones-horizontal-04.png', 'Dormitorio con cabecero horizontal de listones de madera.']
+        ]
     },
     juvenil: {
         title: 'Juvenil', description: 'Espacios completos que acompañan cada nueva etapa.',
@@ -17,19 +34,23 @@ const categories = {
     },
     armarios: {
         title: 'Armarios y vestidores', description: 'Almacenaje a medida para aprovechar cada centímetro.',
-        images: [['armario-modular-puertas-cristal.png', 'Armario modular blanco con espejo y puertas de cristal para vestidor.'], ['vestidor-espejo-redondo-iluminado.jpg', 'Vestidor con armarios de cristal oscuro y espejo circular iluminado.']]
+        images: [
+            ['armario-modular-puertas-cristal.png', 'Armario modular blanco con espejo y puertas de cristal para vestidor.'],
+            ['vestidor-espejo-redondo-iluminado.jpg', 'Vestidor con armarios de cristal oscuro y espejo circular iluminado.'],
+            ['vestidor-espejo-circular-listones-03.png', 'Vestidor con armarios de cristal, espejo circular y panel de listones.']
+        ]
     },
     'muebles-tv': {
         title: 'Muebles de TV', description: 'Doce propuestas para integrar tecnología, almacenaje e iluminación en el salón.',
         images: ['mueble-tv-blanco-01.png', 'mueble-tv-espejo-iluminado-02.png', 'mueble-tv-moderno-03.png', 'mueble-tv-moderno-04.png', 'mueble-tv-moderno-05.png', 'mueble-tv-moderno-06.png', 'mueble-tv-moderno-07.png', 'mueble-tv-moderno-08.png', 'mueble-tv-moderno-09.png', 'mueble-tv-moderno-10.png', 'mueble-tv-moderno-11.png', 'mueble-tv-moderno-12.png'].map(file => [file, 'Propuesta de mueble de televisión moderno.'])
     },
     'mesas-de-centro': {
-        title: 'Mesas de centro', description: 'Ocho diseños para completar el salón con funcionalidad y personalidad.',
-        images: ['mesa-centro-03.png', 'mesa-centro-04.png', 'mesa-centro-05.png', 'mesa-centro-06.png', 'mesa-centro-07.png', 'mesa-centro-08.png', 'mesa-elevable-patas-cruzadas-02.png', 'mesa-elevable-sofa-01.png'].map(file => [file, 'Mesa de centro de diseño contemporáneo.'])
+        title: 'Mesas de centro', description: 'Tres diseños para completar el salón con funcionalidad y personalidad.',
+        images: ['mesa-centro-03.png', 'mesa-elevable-patas-cruzadas-02.png', 'mesa-elevable-sofa-01.png'].map(file => [file, 'Mesa de centro de diseño contemporáneo.'])
     },
     'separadores-de-ambientes': {
-        title: 'Separadores de ambientes', description: 'Once formas de delimitar y dar ritmo a un espacio manteniendo la luz.',
-        images: ['separador-listones-salon-02.png', 'separador-listones-nichos-01.png', 'separador-listones-madera-03.png', 'separador-listones-04.png', 'separador-listones-05.png', 'separador-listones-06.png', 'separador-listones-07.png', 'separador-listones-08.png', 'separador-listones-09.png', 'separador-listones-10.png', 'separador-listones-11.png'].map(file => [file, 'Separador de ambientes realizado con listones de madera.'])
+        title: 'Separadores de ambientes', description: 'Seis formas de delimitar y dar ritmo a un espacio manteniendo la luz.',
+        images: ['separador-listones-salon-02.png', 'separador-listones-nichos-01.png', 'separador-listones-madera-03.png', 'separador-listones-04.png', 'separador-listones-05.png', 'separador-listones-escalera-06.png'].map(file => [file, 'Separador de ambientes realizado con listones de madera.'])
     },
     comedor: {
         title: 'Comedores', description: 'Mesas y sillas para convertir las reuniones cotidianas en momentos especiales.',
@@ -38,6 +59,10 @@ const categories = {
     'aparadores-y-vitrinas': {
         title: 'Aparadores y vitrinas', description: 'Piezas de almacenaje que ordenan y también decoran.',
         images: ['aparador-roble-arco-04.png', 'aparador-roble-crema-01.png', 'aparador-roble-ventanal-02.png', 'vitrina-cristal-oscura-03.png'].map(file => [file, 'Aparador o vitrina de estilo contemporáneo.'])
+    },
+    despachos: {
+        title: 'Despachos', description: 'Espacios de trabajo funcionales, ordenados y bien iluminados.',
+        images: [['despacho-biblioteca-iluminada-01.png', 'Despacho contemporáneo con escritorio y biblioteca iluminada.']]
     }
 };
 
