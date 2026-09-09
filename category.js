@@ -83,17 +83,4 @@ document.addEventListener('DOMContentLoaded', () => {
             <img src="assets/categorias/${slug in categories ? slug : 'salones'}/${file}" alt="${alt}" ${index > 1 ? 'loading="lazy"' : ''}>
         </figure>`).join('');
 
-    const header = document.getElementById('header');
-    const hamburger = document.getElementById('hamburger');
-    const navMenu = document.getElementById('nav-menu');
-    hamburger?.addEventListener('click', () => {
-        const active = navMenu.classList.toggle('active');
-        hamburger.classList.toggle('active', active);
-        hamburger.setAttribute('aria-expanded', active);
-        document.body.style.overflow = active ? 'hidden' : '';
-    });
-    navMenu?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-        navMenu.classList.remove('active'); hamburger?.classList.remove('active'); document.body.style.overflow = '';
-    }));
-    header?.classList.add('scrolled');
 });
