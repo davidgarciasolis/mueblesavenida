@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap">
-    <link rel="stylesheet" href="style.css?v=1.3">
+    <link rel="stylesheet" href="style.css?v=1.4">
     <link rel="icon" type="image/webp" href="assets/branding/favicon.webp">
 </head>
 <body class="category-page">
@@ -20,7 +20,22 @@
         <nav id="nav-menu" aria-label="Navegación principal">
             <ul>
                 <li><a href="index.html#Inicio">Inicio</a></li>
-                <li><a href="index.html#Colecciones">Categorías</a></li>
+                <li class="nav-dropdown">
+                    <a href="index.html#Colecciones" aria-haspopup="true">Categorías</a>
+                    <ul class="nav-dropdown-menu" aria-label="Todas las categorías">
+                        <li><a href="categoria.html?categoria=salones">Salones</a></li>
+                        <li><a href="categoria.html?categoria=dormitorios">Dormitorios</a></li>
+                        <li><a href="categoria.html?categoria=juvenil">Juvenil</a></li>
+                        <li><a href="categoria.html?categoria=armarios">Armarios y vestidores</a></li>
+                        <li><a href="categoria.html?categoria=muebles-tv">Muebles de TV</a></li>
+                        <li><a href="categoria.html?categoria=mesas-de-centro">Mesas de centro</a></li>
+                        <li><a href="categoria.html?categoria=separadores-de-ambientes">Separadores de ambientes</a></li>
+                        <li><a href="categoria.html?categoria=despachos">Despachos</a></li>
+                        <li><a href="categoria.html?categoria=comedor">Comedores</a></li>
+                        <li><a href="categoria.html?categoria=aparadores-y-vitrinas">Aparadores y vitrinas</a></li>
+                        <li><a href="categoria.html?categoria=recibidores">Recibidores</a></li>
+                    </ul>
+                </li>
                 <li><a href="index.html#Servicios">Servicios</a></li>
                 <li><a href="index.html#Contacto">Contacto</a></li>
             </ul>
