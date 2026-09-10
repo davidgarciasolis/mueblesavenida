@@ -1,20 +1,25 @@
 (() => {
-    const isHome = /(?:^|\/)index\.html$/.test(window.location.pathname) || window.location.pathname.endsWith('/');
-    const homeUrl = isHome ? '' : 'index.html';
+    const siteRoot = document.body.dataset.siteRoot || '';
+    const isHome = !siteRoot && (/\/(?:index\.html)?$/.test(window.location.pathname));
+    const homeUrl = isHome ? '' : `${siteRoot}index.html`;
 
     window.loadHeader = async () => {
         const slot = document.querySelector('[data-header-slot]');
         if (!slot) return;
 
         try {
-            const response = await fetch('header.html');
+            const response = await fetch(`${siteRoot}header.html`);
             if (!response.ok) throw new Error(`No se pudo cargar la cabecera (${response.status})`);
             slot.innerHTML = await response.text();
 
             const header = slot.querySelector('#header');
             slot.querySelector('[data-home-link]').href = `${homeUrl}#Inicio`;
+            slot.querySelector('.logo img').src = `${siteRoot}assets/branding/logo.webp`;
             slot.querySelectorAll('[data-section]').forEach(link => {
                 link.href = `${homeUrl}#${link.dataset.section}`;
+            });
+            slot.querySelectorAll('.nav-dropdown-menu a').forEach(link => {
+                link.href = `${siteRoot}${link.getAttribute('href')}`;
             });
             if (!isHome) header.classList.add('scrolled');
 

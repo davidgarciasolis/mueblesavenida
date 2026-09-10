@@ -67,6 +67,16 @@ const categories = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    if (!document.querySelector('[data-footer-slot]')) {
+        const footerSlot = document.createElement('div');
+        footerSlot.dataset.footerSlot = '';
+        document.querySelector('main')?.after(footerSlot);
+
+        const footerScript = document.createElement('script');
+        footerScript.src = `${document.body.dataset.siteRoot || ''}footer.js?v=1.0`;
+        document.body.append(footerScript);
+    }
+
     const slug = new URLSearchParams(window.location.search).get('categoria');
     const category = categories[slug] || categories.salones;
     const title = document.getElementById('category-title');
